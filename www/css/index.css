@@ -1,14 +1,14 @@
 html, body {
-    background-color: #ddc6c6;
+    
     position: relative;
     height: 100%;
     font-family: Tahoma;
 }
 
 
-
-#app {
+#landing, #app {
     height: 100%;
+    background-color: #ddc6c6;
 }
 
 #compass {
