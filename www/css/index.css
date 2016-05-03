@@ -1,0 +1,50 @@
+html, body {
+    background-color: #ddc6c6;
+    position: relative;
+    height: 100%;
+    font-family: Tahoma;
+}
+
+
+
+#app {
+    height: 100%;
+}
+
+#compass {
+    background-image: url("../img/circle.png");
+    background-position: center center;
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    height: 70%;
+    position: relative;
+}
+
+#needle {
+    background-image: url("../img/needle.png");
+    background-position: center center;
+    background-size: 30%;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+#top {
+    height: 15%;
+    font-size: 90px;
+    text-align: center;
+    color:#FFF;
+    line-height: 100%;
+}
+
+#footer {
+    height: 15%;
+    font-size: 55px;
+    text-align: center;
+    color:#FFF;
+}
